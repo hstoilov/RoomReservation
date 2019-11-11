@@ -21,8 +21,7 @@
                 return;
             }
             // Possible values for '_<format>.jpg' are '[mstzb]' (t:tiny,s:small,m:medium,b:big,...).
-            // TODO: Construct 'pictureUrl'
-            const pictureUrl = undefined;
+            const pictureUrl = "http://static.flickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_b.jpg";
             document.getElementById("target").innerHTML = "<img src='" + pictureUrl + "'><div> " + photo.title + "</div>";
         }
 

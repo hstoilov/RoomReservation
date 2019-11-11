@@ -3,4 +3,9 @@ Accept: */*
 Cache-Control: no-cache
 
 ###
+POST http://localhost:8080/rooms
+
+{name: "New Raum", max: 20}
+
+###
 
